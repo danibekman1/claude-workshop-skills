@@ -10,7 +10,7 @@ Two Claude Code plugins we use in the Hebrew University research workshop:
 You need [Claude Code](https://docs.claude.com/en/docs/claude-code) already set up. Then, inside Claude Code, run:
 
 ```
-/plugin marketplace add danielb-ship-it/claude-workshop-skills
+/plugin marketplace add danibekman1/claude-workshop-skills
 /plugin install slide-deck@claude-workshop-skills
 /plugin install code-review@claude-workshop-skills
 ```
