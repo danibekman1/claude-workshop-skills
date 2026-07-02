@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-workshop-skills",
+  "description": "Two Claude Code plugins for the Hebrew University research workshop: slide-deck (build a presentation from an idea) and code-review (a strict review of your changes).",
+  "owner": { "name": "Dani Bekman" },
+  "plugins": [
+    {
+      "name": "slide-deck",
+      "source": "./slide-deck/1.0.0",
+      "category": "productivity",
+      "author": { "name": "Dani Bekman" },
+      "description": "Build LaTeX/beamer presentations via pandoc with a configurable brand palette. Three commands: /slide-deck:new bootstraps a deck, /slide-deck:review renders slides to PNG and runs a 13-rule inspection, and /slide-deck:critique scores the deck against a 6-dimension rubric."
+    },
+    {
+      "name": "code-review",
+      "source": "./code-review/1.1.0",
+      "category": "development",
+      "author": { "name": "Skills Team" },
+      "description": "Strict code review orchestrator - dispatches code-style, test-validation, test-minimizer, and refactoring-safety reviewers in parallel, plus per-language packs. Run /strict-review to analyze your branch diff."
+    }
+  ]
+}

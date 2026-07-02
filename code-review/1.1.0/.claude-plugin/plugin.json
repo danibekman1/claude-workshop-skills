@@ -1,0 +1,8 @@
+{
+  "name": "code-review",
+  "version": "1.1.0",
+  "description": "Strict code review orchestrator - dispatches code-style, test-validation, test-minimizer, and refactoring-safety reviewers in parallel, plus spec-compliance, per-language packs (Python and TypeScript), and skill review when relevant, across 34+ patterns plus 4 judgment-guided design principles (KISS/YAGNI/DRY/SOLID). Run /strict-review to analyze your branch diff.",
+  "author": {
+    "name": "Skills Team"
+  }
+}

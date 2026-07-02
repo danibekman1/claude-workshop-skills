@@ -1,0 +1,31 @@
+% Brand palette. Source of truth - keep in sync with plots/_common.py BRAND dict.
+% Swap these hex values for your own brand colors; the role names below stay the same.
+\definecolor{brandPrimary}{HTML}{1E3A8A}     % dark accent (titles, frametitle bg)
+\definecolor{brandPrimaryAlt}{HTML}{1E40AF}  % secondary dark
+\definecolor{brandAccent}{HTML}{3B82F6}      % vivid call-to-action (alerted text, progress)
+\definecolor{brandSecondary}{HTML}{60A5FA}   % lighter accent
+\definecolor{brandSuccess}{HTML}{10B981}     % positive highlight
+\definecolor{brandLightGrey}{HTML}{F3F4F6}   % backgrounds, bands
+\definecolor{brandGrey}{HTML}{6B7280}        % muted text, footnotes
+
+% Theme assignment.
+\setbeamercolor{normal text}{fg=brandPrimary, bg=white}
+\setbeamercolor{alerted text}{fg=brandAccent}
+\setbeamercolor{example text}{fg=brandSuccess!70!black}
+\setbeamercolor{frametitle}{bg=brandPrimary, fg=white}
+\setbeamercolor{title}{fg=brandPrimary}
+\setbeamercolor{subtitle}{fg=brandPrimaryAlt}
+\setbeamercolor{author}{fg=brandGrey}
+\setbeamercolor{date}{fg=brandGrey}
+\setbeamercolor{section in toc}{fg=brandPrimary}
+\setbeamercolor{footnote}{fg=brandGrey}
+\setbeamercolor{page number in head/foot}{fg=brandGrey}
+\setbeamercolor{progress bar}{fg=brandAccent, bg=brandLightGrey}
+\setbeamercolor{progress bar in head/foot}{fg=brandAccent, bg=brandLightGrey}
+\setbeamercolor{progress bar in section page}{fg=brandAccent, bg=brandLightGrey}
+\setbeamercolor{itemize item}{fg=brandAccent}
+\setbeamercolor{itemize subitem}{fg=brandSecondary}
+\setbeamercolor{enumerate item}{fg=brandAccent}
+
+% Body font size for projector.
+\renewcommand{\normalsize}{\fontsize{10.5pt}{13pt}\selectfont}

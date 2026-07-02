@@ -1,0 +1,110 @@
+---
+title: "{{TITLE}}"
+subtitle: "{{SUBTITLE}}"
+author: "{{AUTHOR}}"
+date: "{{DATE}}"
+audience: "{{AUDIENCE}}"
+time_budget: {{TIME_BUDGET}}
+takeaway: "{{TAKEAWAY}}"
+---
+
+<!--
+  Style invariants (enforced by /slide-deck:review):
+  - No em-dashes. Never write `---` (pandoc converts to em-dash) or U+2014. Use ` - `.
+  - First mention of any acronym spells it out: SVD (Singular Value Decomposition).
+  - Inline commands/identifiers in backticks: `mvn install`, never raw.
+  - Speaker notes follow "<say-what>" - <why-it-matters>. Max 7 bullets, 80 words.
+  - Per slide: title + ~5 short bullets, OR title + figure at 0.78\textwidth, OR title + 4-row table.
+  - No code on slides unless ≤6 lines, no `\` continuations.
+  - No superlatives ("powerful", "robust", "seamlessly"). Numbers and verbs.
+-->
+
+# The problem
+
+## What hurts today
+
+- {{Bullet 1: who, what, how often, what it costs}}
+- {{Bullet 2}}
+- {{Bullet 3}}
+
+::: notes
+- "{{One-line of what to say out loud}}" - {{why it matters / what the audience should feel}}.
+- Plain English for any term: {{technical term}} = {{one-line definition}}.
+:::
+
+## Before - one full iteration
+
+\begin{center}
+\Huge {{the headline cost}}
+\end{center}
+
+::: notes
+- Pause here. Let the number land before the after-slide.
+:::
+
+# The solution
+
+## After - same problem, new approach
+
+\begin{center}
+\Huge {{the new cost or outcome}}
+\end{center}
+
+- {{Bullet 1: concrete change}}
+- {{Bullet 2}}
+
+::: notes
+- This is the whole pitch in one slide. Everything from here is "how".
+:::
+
+# Mechanics
+
+## How it works
+
+\centering
+\includegraphics[width=0.85\textwidth]{figs/example.png}
+
+\raggedright
+
+{{One-line caption of the architecture or flow}}
+
+::: notes
+- Walk left to right. Name each box in plain English on first mention.
+- (Q&A backup) deeper point: {{thing you can mention if asked}}.
+:::
+
+# Plan
+
+## Status and next steps
+
+\alert{\large\textbf{Done}}
+
+- {{Shipped item}}
+- {{Shipped item}}
+
+\vspace{0.4em}
+
+\alert{\large\textbf{In flight}}
+
+- {{Current work}}
+
+\vspace{0.4em}
+
+\alert{\large\textbf{Next}}
+
+- {{Specific action with owner / date}}
+
+::: notes
+- End on the call to action, not the status.
+:::
+
+## Q\&A
+
+- Thanks - questions?
+
+::: notes
+- Backup tabs ready: {{supporting docs / data / paper}}. Don't open unless asked.
+- Likely questions:
+  - "{{Q1}}" - {{A1 in one sentence}}.
+  - "{{Q2}}" - {{A2}}.
+:::

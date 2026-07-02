@@ -1,0 +1,8 @@
+{
+  "name": "slide-deck",
+  "version": "1.0.0",
+  "description": "Build LaTeX/beamer presentations via pandoc with a configurable brand palette. Three commands: /slide-deck:new bootstraps a new deck (Q&A -> scaffold -> draft section-by-section); /slide-deck:review renders every slide to PNG and runs mechanical+visual+editorial inspections from a 13-rule checklist (slide overflow, brand palette, floating diagram labels, speaker-note shape, acronyms, narrative arc, em-dashes, pdfpc usability); /slide-deck:critique scores the deck against a 6-dimension presentation-quality rubric (Structure, Story arc, Density, Audience fit, Stickiness, Craft) with 32 sub-checks and 64 max points, producing a letter grade + critique-report.md.",
+  "author": {
+    "name": "Dani Bekman"
+  }
+}
